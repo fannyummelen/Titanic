@@ -7,7 +7,6 @@
 #															  #	
 ###############################################################
 
-# Master branch
 # Load python modules
 import pandas as pd
 import numpy as np
@@ -81,6 +80,6 @@ survival_predicted = model.predict(features_test)
 submission_file.Survived = survival_predicted
 submission_file.to_csv('titanic_predictions.csv', index = False)
 
-print('Program finished.')
+
 
 
