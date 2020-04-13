@@ -80,6 +80,8 @@ survival_predicted = model.predict(features_test)
 submission_file.Survived = survival_predicted
 submission_file.to_csv('titanic_predictions.csv', index = False)
 
+# added online
+
 
 
 
